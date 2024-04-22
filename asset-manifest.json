@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pharma-master/static/css/main.daf920c0.css",
+    "main.js": "/pharma-master/static/js/main.290df8ea.js",
+    "static/media/Ads.png": "/pharma-master/static/media/Ads.6bbaef92e630dabae627.png",
+    "static/media/sunOil.png": "/pharma-master/static/media/sunOil.5855ed7eddfed7d968f1.png",
+    "static/media/user-icon-1024x1024-dtzturco.png": "/pharma-master/static/media/user-icon-1024x1024-dtzturco.ab08b27413022d2034a0.png",
+    "static/media/phone.png": "/pharma-master/static/media/phone.7d9b0110b97f05464ce6.png",
+    "static/media/ahmed.jpg": "/pharma-master/static/media/ahmed.9024c1d195a52aff98db.jpg",
+    "static/media/hamed.jpg": "/pharma-master/static/media/hamed.6ed65b7ef0b3260e3794.jpg",
+    "static/media/pharmacy-hub.svg": "/pharma-master/static/media/pharmacy-hub.d44ea6a07ad23ee83dc806d52c701ebd.svg",
+    "index.html": "/pharma-master/index.html",
+    "main.daf920c0.css.map": "/pharma-master/static/css/main.daf920c0.css.map",
+    "main.290df8ea.js.map": "/pharma-master/static/js/main.290df8ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daf920c0.css",
+    "static/js/main.290df8ea.js"
+  ]
+}
