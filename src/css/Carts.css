@@ -1,0 +1,34 @@
+#order {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+#order h5 {
+  font-size: 24px;
+  font-weight: 600;
+  border: 2px solid #13a03bd0;
+  color: #000000;
+  padding: 10px;
+  border-radius: 6px;
+}
+#order h5 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#order .buy__btn {
+  background-color: #13a03b;
+  padding: 5px 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #13a03b;
+}
+
+#order .buy__btn a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7f7f7;
+}

@@ -1,0 +1,43 @@
+{
+  "cSpell.words": [
+    "Allproducts",
+    "appstore",
+    "Automations",
+    "fontawesome",
+    "fortawesome",
+    "googleplay",
+    "headlessui",
+    "heroicons",
+    "Mansoura",
+    "OLAPLEX",
+    "reduxjs",
+    "Roboto",
+    "tailwindcss",
+    "toastify",
+    "webp",
+    "استخدام",
+    "الابتدائية",
+    "الانتقال",
+    "التقييم",
+    "الحالة",
+    "الحالي",
+    "الكارت",
+    "المتحركة",
+    "المنتج",
+    "تأكيد",
+    "تحديث",
+    "تحديد",
+    "تقييم",
+    "ذهبي",
+    "نجوم",
+    "والتأخير"
+  ],
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:pharmacy_hub}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  }
+}

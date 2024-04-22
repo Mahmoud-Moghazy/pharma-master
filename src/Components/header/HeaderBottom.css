@@ -1,0 +1,32 @@
+#cont {
+  background-color: #ccecd5;
+  padding: 30px 30px;
+  text-align: center;
+}
+#ROW {
+  overflow: hidden;
+}
+#COL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+#COL a {
+  text-decoration: none;
+  color: #403e3e;
+}
+
+#COL a:hover,
+#COL a:active {
+  color: #008829;
+}
+#COL a .iconCarts {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.nav__bottom__active {
+  font-weight: bold;
+  color: #008829 !important;
+}

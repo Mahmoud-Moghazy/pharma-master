@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #53f280;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+/* styles.css */
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ccecd5; /* Adjust the height as needed */
+}
+
+.spinner-container .text {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: green;
+}
+
+.btn-top {
+  background-color: #3cc428;
+  border: 1px solid #3cc428;
+  outline: none;
+  position: fixed;
+  bottom: 50px;
+  right: -50px; /* Initially hide the button from the right side */
+  transition: right 0.5s ease-in-out; /* Add transition for smooth animation */
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Show the button when it's visible */
+.btn-top.visible {
+  right: 50px; /* Display the button with 50px from the right */
+}
+
+@media only screen and (max-width: 992px) {
+  .btn-top {
+    display: none;
+  }
+}

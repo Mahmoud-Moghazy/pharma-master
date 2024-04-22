@@ -1,0 +1,27 @@
+#Browse {
+  padding-bottom: 0;
+  div {
+    background-color: #f7f7f7;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    h3 {
+      color: #403e3e;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #Browse {
+    div {
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.auth__form {
+  margin-bottom: 60px;
+  background-color: #13a03bd6;
+  padding: 40px;
+  border-radius: 20px;
+}
+.auth__form h3 {
+  color: #f7f7f7;
+  font-size: 30px;
+}
+.form__groups {
+  margin-right: 30px;
+}
+
+.auth__form button {
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #000000;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7f7f7;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+}
+
+.auth__form p {
+  color: #f7f7f7;
+  font-size: 16px;
+  text-align: center;
+  padding-left: 10px;
+}
+.auth__form p a {
+  color: #f7f7f7;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth__form p a:hover {
+  color: #000000;
+  text-decoration: underline 2px solid #000000;
+  text-underline-offset: 5px;
+}
+
+.auth__form input[type="file"] {
+  border: none;
+  outline: none;
+  animation: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: fit-content !important;
+  padding: 0 !important;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    margin-top: 60px !important;
+  }
+}

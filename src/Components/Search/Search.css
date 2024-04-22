@@ -1,0 +1,38 @@
+#searchPage {
+  padding-bottom: 0px;
+}
+
+#searchBar {
+  border-radius: 6px !important;
+
+  height: 50px;
+  padding: 12.96px, 25.92px, 12.96px, 25.92px;
+  border: 1px solid #a6a4a4;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#searchBar::placeholder {
+  font-size: 18px;
+  line-height: 30.38px;
+  font-weight: 400;
+  color: #a6a4a4;
+}
+
+.custom {
+  margin-left: 30px;
+}
+.custom p {
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 992px) {
+  #searchPage {
+    padding-top: 60px;
+  }
+  .custom {
+    text-align: center;
+  }
+}

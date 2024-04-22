@@ -1,0 +1,222 @@
+#Cares {
+  background-color: #f7f7f7;
+  width: fit-content;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+}
+
+#Cares h2 {
+  font-size: 24px;
+}
+
+/* from caresView page */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15px;
+  background-color: #e5e0e001;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* from caresProduct page */
+#card-one {
+  width: 300px;
+  overflow: hidden;
+  padding: 10px 0;
+  /* background-color: #e5e0e021; */
+  border: 1px solid #e5e0e0;
+  box-shadow: 0px 0px 3px 3px #e4dfdf;
+  animation: scaleAnimation 2s infinite; /* Adjust the duration and timing as needed */
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+@keyframes scaleAnimation {
+  0% {
+    box-shadow: 0px 0px 3px 3px #e4dfdf;
+  }
+  50% {
+    box-shadow: 0px 0px 7px 8px #e4dfdf;
+  }
+  100% {
+    box-shadow: 0px 0px 3px 3px #e4dfdf;
+  }
+}
+
+/* div img */
+.card-body .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 30px; */
+  padding: 0 40px;
+  margin-bottom: 30px;
+}
+.card-body .img .cardImage {
+  padding-top: 20px;
+  max-width: 200px;
+  background-color: transparent;
+}
+.card-body .icon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 10px;
+}
+.card-body .iconCarts {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  color: #27b43e;
+  cursor: pointer;
+}
+.card-body .iconCarts:hover {
+  color: #48d760;
+}
+.card-body h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-body p {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card-body h4 {
+  color: #27b43e;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* div text-one */
+.review {
+  margin-bottom: 20px;
+}
+.review .star {
+  margin-bottom: 10px;
+}
+
+/* .review .review-count {
+  background-color: red;
+} */
+.review .review-count p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* .review .review-count p .review-btn {
+} */
+.review .review-count p .review-btn button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #3cc428;
+  outline: none;
+  border: 1px solid #3cc428;
+  color: #f7f7f7;
+}
+
+.available {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.available span {
+  padding: 5px 0;
+  display: block;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+.available span:hover {
+  background-color: transparent;
+  border: 1px solid #27b43e;
+  width: fit-content;
+  padding: 10px;
+}
+/* pagination */
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination button {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  padding: 20px;
+  background-color: #3cc428;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination button:hover {
+  background-color: #4dd538;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* media */
+
+@media only screen and (max-width: 992px) {
+  #Cares {
+    margin: 0 auto;
+  }
+}
+
+/* showDetails */
+
+.showDetails {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #3cc428;
+  outline: none;
+  border: 1px solid #3cc428;
+  color: #f7f7f7;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .showDetails {
+    /* margin-top: 20px !important; */
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 60px;
+    padding-bottom: 30px;
+  }
+}

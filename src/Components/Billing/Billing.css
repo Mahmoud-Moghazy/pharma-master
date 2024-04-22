@@ -1,0 +1,51 @@
+/* .container {
+  margin-top: 60px;
+} */
+.container h6 {
+  font-size: 24px;
+  font-weight: 600;
+  border: 2px solid #13a03bd0;
+  color: #000000;
+  border-radius: 6px;
+  padding: 10px !important;
+  width: fit-content;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.container .billing__form .form__group input {
+  width: 100% !important;
+  padding-left: 20px !important;
+}
+
+/* .container .billing__form .form__group input::placeholder {
+  padding-left: 20px;
+} */
+
+.billing__form .buy__btn {
+  background-color: #13a03b;
+  padding: 5px 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #13a03b;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7f7f7;
+  margin-bottom: 30px;
+}
+
+.box__details {
+  background-color: #dedede;
+  width: fit-content;
+  margin-left: 10px;
+  padding: 15px;
+  border-radius: 6px;
+}
+.box__details h5 {
+  color: #3cc428;
+  font-weight: 900;
+}
+.box__details h5 span {
+  color: #000;
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.payment__details {
+  /* background-color: #dedede5c; */
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px 3px #e4dfdf;
+  animation: scaleAnimation 2s infinite;
+}
+.payment__price .price h5 {
+  font-weight: 600;
+  color: #13a03b;
+}
+.payment__price .price h5 span {
+  font-weight: bold;
+  color: #000;
+}
+.payment__price button {
+  margin-top: 20px;
+  background-color: #13a03b;
+  padding: 5px 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #13a03b;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7f7f7;
+}
+@keyframes scaleAnimation {
+  0% {
+    box-shadow: 0px 0px 3px 3px #e4dfdf;
+  }
+  50% {
+    box-shadow: 0px 0px 7px 8px #e4dfdf;
+  }
+  100% {
+    box-shadow: 0px 0px 3px 3px #e4dfdf;
+  }
+}
